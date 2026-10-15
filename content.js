@@ -39,7 +39,7 @@ window.SITE_CONFIG = {
     button: "One Last Surprise ✨",
     items: [
       { src: "./1.jpeg", type: "couple", caption: "", date: "" },
-      { src: "./2.JPG", type: "couple", caption: "", date: "" },
+      { src: "./2.jpeg", type: "couple", caption: "", date: "" },
       { src: "./3.jpeg", type: "couple", caption: "", date: "" },
       { src: "./4.jpeg", type: "couple", caption: "", date: "" },
       { src: "./5.jpeg", type: "couple", caption: "", date: "" },
