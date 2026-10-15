@@ -17,9 +17,14 @@ window.SITE_CONFIG = {
   },
   letter: {
     greeting: "Happy Birthday, " + her + " ❤️🎂",
-    paragraphs:   [    "Happy Birthday to the most special person in my life! ❤️ You are not just my love, but also my happiness, my strength, and my future. I feel so lucky to have you in my life. May your life always be filled with love, success, happiness, and endless smiles.",
-      "I pray that all your dreams come true and that we continue to create beautiful memories together. I can't wait to spend my life with you and celebrate many more birthdays by your side.",
-      "I love you so much, my forever person! 💖😘"],
+    paragraphs:   [    "Happy Birthday to the most special person in my life! ❤️🫶🏻",
+"You are my happiness, my strength, and my favourite person.",
+"I feel so lucky to have you by my side. ❤️",
+"May all your dreams come true, and may life bring you endless happiness and success. ✨",
+"I pray that we keep growing together and creating beautiful memories.",
+"I can't wait to celebrate countless birthdays with you by my side.",
+"My today, my tomorrow, my forever. I love you endlessly! ❤️♾️"
+],
     closing: "With love,",
     signature: me + " ❤️",
     button: "Continue Our Memories ✨"
@@ -34,7 +39,7 @@ window.SITE_CONFIG = {
     button: "One Last Surprise ✨",
     items: [
       { src: "./1.jpeg", type: "couple", caption: "", date: "" },
-      { src: "./2.jpg", type: "couple", caption: "", date: "" },
+      { src: "./2.JPG", type: "couple", caption: "", date: "" },
       { src: "./3.jpeg", type: "couple", caption: "", date: "" },
       { src: "./4.jpeg", type: "couple", caption: "", date: "" },
       { src: "./5.jpeg", type: "couple", caption: "", date: "" },
