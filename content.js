@@ -18,11 +18,13 @@ window.SITE_CONFIG = {
   letter: {
     greeting: "Happy Birthday, " + her + " ❤️🎂",
     paragraphs: [
-      "Happy Birthday to the most special person in my life! ❤️ You are not just my love, but also my happiness, my strength, and my future. I feel so lucky to have you in my life. May your life always be filled with love, success, happiness, and endless smiles.",
-      "I pray that all your dreams come true and that we continue to create beautiful memories together. I can't wait to spend my life with you and celebrate many more birthdays by your side.",
-      "I love you so much, my forever person! 💖😘",
-      "No website or collection of words could ever capture every feeling perfectly, but this is my little way of making your day more memorable."
-    ],
+    "Happy Birthday to the most special person in my life! ❤️🫶🏻",
+"You are my happiness, my strength, and my favourite person.",
+"I feel so lucky to have you by my side. ❤️",
+"May all your dreams come true, and may life bring you endless happiness and success. ✨",
+"I pray that we keep growing together and creating beautiful memories.",
+"I can't wait to celebrate countless birthdays with you by my side.",
+"My today, my tomorrow, my forever. I love you endlessly! ❤️♾️"],
     closing: "With love,",
     signature: me + " ❤️",
     button: "Continue Our Memories ✨"
