@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="fx"></canvas>
+<div class="vignette"></div>
+<div class="grain"></div>
+
+<audio id="audio" preload="auto"></audio>
+<main>
+  <!-- SCENE 1: OPENING -->
+  <section class="scene active" id="scene-1">
+    <p class="small rise" id="env-date"></p>
+    <h1 class="title rise" id="env-line"></h1>
+    <div class="envelope rise" id="envelope">
+      <div class="env-back"></div>
+      <div class="env-letter"><span id="env-card"></span></div>
+      <div class="env-front"></div>
+      <div class="env-flap"></div>
+      <div class="seal" aria-hidden="true">&#10084;</div>
+    </div>
+    <button class="btn rise" id="open-btn" type="button"></button>
+  </section>
+
+  <!-- SCENE 2: LETTER -->
+  <section class="scene" id="scene-2">
+    <article class="paper rise">
+      <h2 id="l-greet"></h2>
+      <div id="l-body"></div>
+      <p class="closing" id="l-close"></p>
+      <p class="sign" id="l-sign"></p>
+    </article>
+    <button class="btn rise" type="button" data-go="3" id="next-2"></button>
+  </section>
+
+  <!-- SCENE 3: PHOTOS -->
+  <section class="scene" id="scene-3">
+    <h2 class="title rise" id="p-title"></h2>
+    <p class="sub rise" id="p-sub"></p>
+    <div class="slideshow rise" id="slideshow" aria-live="polite">
+      <div class="slide-frame" id="slide-frame"><img id="slide-photo" alt="A special memory"></div>
+      <p class="slide-quote" id="slide-quote"></p>
+      <div class="slide-controls">
+        <button class="slide-arrow" type="button" id="slide-prev" aria-label="Previous photo">‹</button>
+        <span class="slide-count" id="slide-count">1 / 8</span>
+        <button class="slide-arrow" type="button" id="slide-next" aria-label="Next photo">›</button>
+      </div>
+    </div>
+    <button class="btn rise" type="button" data-go="5" id="next-3"></button>
+  </section>
+  <!-- SCENE 5: REVEAL -->
+  <section class="scene" id="scene-5">
+    <p class="small rise" id="r-date"></p>
+    <h1 class="reveal rise" id="r-head"></h1>
+    <div class="msg" id="r-body"></div>
+    <p class="closing rise" id="r-close"></p>
+    <p class="sign rise" id="r-sign"></p>
+    <button class="btn rise" type="button" id="relive"></button>
+  </section>
+</main>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
