@@ -36,7 +36,7 @@ window.SITE_CONFIG = {
     emptyHint: "Your photo goes here",
     button: "One Last Surprise ✨",
     items: [
-      { src: "1.jpeg", type: "couple", caption: "", date: "" },
+      { src: "janvi-s-birthday/1.jpeg", type: "couple", caption: "", date: "" },
       { src: "assets/photos/2.jpg", type: "couple", caption: "", date: "" },
       { src: "assets/photos/3.jpeg", type: "couple", caption: "", date: "" },
       { src: "assets/photos/4.jpeg", type: "couple", caption: "", date: "" },
