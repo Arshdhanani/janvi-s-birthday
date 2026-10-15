@@ -37,13 +37,13 @@ window.SITE_CONFIG = {
     button: "One Last Surprise ✨",
     items: [
       { src: "janvi-s-birthday/1.jpeg", type: "couple", caption: "", date: "" },
-      { src: "assets/photos/2.jpg", type: "couple", caption: "", date: "" },
-      { src: "assets/photos/3.jpeg", type: "couple", caption: "", date: "" },
-      { src: "assets/photos/4.jpeg", type: "couple", caption: "", date: "" },
-      { src: "assets/photos/5.jpeg", type: "couple", caption: "", date: "" },
-      { src: "assets/photos/6.jpeg", type: "couple", caption: "", date: "" },
-      { src: "assets/photos/7.jpeg", type: "couple", caption: "", date: "" },
-      { src: "assets/photos/8.jpeg", type: "couple", caption: "", date: "" }
+      { src: "janvi-s-birthday/2.jpg", type: "couple", caption: "", date: "" },
+      { src: "janvi-s-birthday/3.jpeg", type: "couple", caption: "", date: "" },
+      { src: "janvi-s-birthday/4.jpeg", type: "couple", caption: "", date: "" },
+      { src: "janvi-s-birthday/5.jpeg", type: "couple", caption: "", date: "" },
+      { src: "janvi-s-birthday/6.jpeg", type: "couple", caption: "", date: "" },
+      { src: "janvi-s-birthday/7.jpeg", type: "couple", caption: "", date: "" },
+      { src: "janvi-s-birthday/8.jpeg", type: "couple", caption: "", date: "" }
     ]
   },
   song: {
