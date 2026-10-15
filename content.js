@@ -36,20 +36,20 @@ window.SITE_CONFIG = {
     emptyHint: "Your photo goes here",
     button: "One Last Surprise ✨",
     items: [
-      { src: "janvi-s-birthday/1.jpeg", type: "couple", caption: "", date: "" },
-      { src: "janvi-s-birthday/2.jpg", type: "couple", caption: "", date: "" },
-      { src: "janvi-s-birthday/3.jpeg", type: "couple", caption: "", date: "" },
-      { src: "janvi-s-birthday/4.jpeg", type: "couple", caption: "", date: "" },
-      { src: "janvi-s-birthday/5.jpeg", type: "couple", caption: "", date: "" },
-      { src: "janvi-s-birthday/6.jpeg", type: "couple", caption: "", date: "" },
-      { src: "janvi-s-birthday/7.jpeg", type: "couple", caption: "", date: "" },
-      { src: "janvi-s-birthday/8.jpeg", type: "couple", caption: "", date: "" }
+      { src: "./1.jpeg", type: "couple", caption: "", date: "" },
+      { src: "./2.jpg", type: "couple", caption: "", date: "" },
+      { src: "./3.jpeg", type: "couple", caption: "", date: "" },
+      { src: "./4.jpeg", type: "couple", caption: "", date: "" },
+      { src: "./5.jpeg", type: "couple", caption: "", date: "" },
+      { src: "./6.jpeg", type: "couple", caption: "", date: "" },
+      { src: "./7.jpeg", type: "couple", caption: "", date: "" },
+      { src: "./8.jpeg", type: "couple", caption: "", date: "" }
     ]
   },
   song: {
     title: "A Song for This Moment",
     subtitle: "Add the song that means something to you both.",
-    file: "assets/songg.m4a",
+    file: "./songg.m4a",
     displayName: "Your chosen song",
     placeholder: "Your song will live here when you’re ready to add it.",
     button: "One Last Surprise ✨"
